@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Mina:wght@400;700&display=swap");
+
+*{
+    box-sizing: border-box;
+}
+
+header{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+    margin-top:0;
+}
+
+header img{
+    width: 20%;
+    height: 80px;
+}
+
+header input{
+    height: 50px;
+    margin-top: 25px; ;
+}
+
+body{
+    background-color: slateblue;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 3;
+}
+
+
+.big-container{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr ;
+}
+
+nav{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+    
+}
+
+nav a {
+    font-style: bold;
+    color: rgb(255, 255, 255);
+    text-decoration:none;
+    font-size:x-large;
+    font-weight:bold;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(252, 252, 252);
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.card {
+    box-shadow: 0 2px 10px rgba(0, 0, 0,0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 350px;
+
+    
+}
+
+.card-header{
+    height: 200px;
+}
+
+.card-header img{
+    object-fit: cover;
+    height: 100%;
+    width:100%; 
+}
+
+.card-content{
+    background-color: rgb(233, 233, 233);
+    padding:30px;
+    text-decoration: none;
+    
+}
+
+.card_link{
+    text-decoration: none;
+    color: black;
+}
+
+.card-title{
+    height: 12px;
+    margin:0;
+}
+
+
+.card-excerpt{
+    color:rgb(0, 0, 0); 
+    margin: 10px 0 20px;
+    text-decoration: none;
+}
+
+h1{
+    color: antiquewhite;
+}
+
+.reviews{
+    color: rgb(255, 255, 255);
+
+} 
+.About-this-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px;
+    background-color: black;
+  }
+
+.reviews-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin: 80px;
+    background-color: black;
+    width:fit-content
+}
+
+h3{
+    color:rgb(0, 0, 0)
+    
+}
+
+.about-description{
+    color:rgb(255, 255, 255)
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;    
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+
+Li{
+    font-style: normal;
+}
+
+.form-control label{
+    color: antiquewhite;    
+}   
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items:left;
+    justify-items: center;
+    
+}
+
+.log-in-container{ 
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.log-in-container input{
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.log-in{ 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+table{
+    color: antiquewhite;
+    
+}
+
+.reviews-container img{
+    width: 300px;
+    height: auto;
+    
+}
+
+.to-do-list-for-Concerts{
+    color: black;
+    background-color: antiquewhite;
+    border: 1px solid;
+}
+
+.to-do-list-for-Concerts th,td{
+    border: 1px solid;
+    
+}
+.note{ 
+    background-color: beige;
+    width: 500px;
+
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+table, th, td {
+    border: none;
+}

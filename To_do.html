@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title>Concert Manager</title>
+        <Link rel="stylesheet" href="Practice.CSS"></Link>
+    </head>
+    <body>
+
+        <header class="Concert Manager">        
+            <img src="Concert Manager.png"> 
+        
+            <nav class ="Concert manager nav">
+              <a class="concert manager_link" href="Index.html">Home</a>  
+              <a class="concert manager_link" href="About.html">About</a>  
+              <a class="concert manager_link" href="Albums.html">Reviews</a> 
+              <a class="concert manager_link" href="SignIn.html">Sign In</a>  
+            </nav>  
+            <input type="search" placeholder="search">
+          </header>
+          
+          <main>
+            <div class="to-do-list-container" id="notes">     
+            </div>
+          </main>
+             
+          <footer>
+            <div class="footer-nav">
+              <ul>
+                <li>
+                  <p>©2022 ConcertMan Inc.</p>
+                </li>
+                </ul>
+            </div>
+          </footer>
+      
+
+<script>
+
+const notes = [
+  {
+    number : "1",
+    description  : "call stadium manager"
+  },
+  {
+    number : "2",
+    description  : "book hotel to stay for everyone"
+  },
+  {
+    number : "3",
+    description  : "arrange costumes on site for the event"
+  }
+];  //["Saab", "Volvo", "BMW"];
+
+let html = "";
+notes.forEach((n)=>{
+  html = html + `<div class="note"><p>${n.number} ${n.description}</p> </div>` 
+});
+
+
+document.getElementById("notes").innerHTML = html;
+
+      </script>
+  
+
+    </body>
+
+</html>
